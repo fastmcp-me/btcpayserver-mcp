@@ -1,0 +1,7 @@
+## Changelog
+
+### v1.0.0
+- Initial release
+- Complete BTCPayServer MCP integration
+- Full TypeScript support with validation
+- Comprehensive error handling
