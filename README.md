@@ -7,9 +7,9 @@ The BTCPayServer MCP Server provides a streamlined set of tools for interacting 
 
 | Tool | Description | Primary Use |
 |------|-------------|-------------|
-| get_service_info | Discover methods available for a service | Exploration and discovery |
-| get_method_info | Get detailed parameter requirements | Request preparation |
-| btcpay_request | Execute API calls to BTCPayServer | Performing operations |
+| `get_service_info` | Discover methods available for a service | Exploration and discovery |
+| `get_method_info` | Get detailed parameter requirements | Request preparation |
+| `btcpay_request` | Execute API calls to BTCPayServer | Performing operations |
 
 ## Integration with AI Assistants
 
@@ -38,43 +38,43 @@ BTCPayServer MCP provides access to BTCPayServer's complete API ecosystem. Check
 ### Payment Services
 | Service | Description |
 |---------|-------------|
-| invoices | Create, manage, and track Bitcoin invoices for payments |
-| payment-requests | Create payment requests for donations or recurring billing |
-| lightning-internal | Manage internal Lightning Network operations |
-| lightning-store | Store-level Lightning Network configurations |
-| lightning-address | Lightning Address management and setup |
+| `invoices` | Create, manage, and track Bitcoin invoices for payments |
+| `payment-requests` | Create payment requests for donations or recurring billing |
+| `lightning-internal` | Manage internal Lightning Network operations |
+| `lightning-store` | Store-level Lightning Network configurations |
+| `lightning-address` | Lightning Address management and setup |
 
 ### Store Management
 | Service | Description |
 |---------|-------------|
-| stores | Store creation, configuration, and management |
-| stores-email | Configure and manage store email settings and SMTP |
-| stores-payment-methods | Manage available payment methods for stores |
-| stores-payout-processors | Configure automated payout processing |
-| stores-payouts | Manage and process store payouts |
-| stores-rates | Exchange rate configuration and management |
-| stores-users | Store user access and permissions management |
-| stores-wallet | Store wallet management and operations |
+| `stores` | Store creation, configuration, and management |
+| `stores-email` | Configure and manage store email settings and SMTP |
+| `stores-payment-methods` | Manage available payment methods for stores |
+| `stores-payout-processors` | Configure automated payout processing |
+| `stores-payouts` | Manage and process store payouts |
+| `stores-rates` | Exchange rate configuration and management |
+| `stores-users` | Store user access and permissions management |
+| `stores-wallet` | Store wallet management and operations |
 
 ### User & Access Management
 | Service | Description |
 |---------|-------------|
-| users | User account management and administration |
-| api-keys | API key creation and permission management |
-| authorization | OAuth and authorization flow management |
+| `users` | User account management and administration |
+| `api-keys` | API key creation and permission management |
+| `authorization` | OAuth and authorization flow management |
 
 ### Integration & Automation
 | Service | Description |
 |---------|-------------|
-| webhooks | Real-time event notifications and webhook management |
-| notifications | System notifications and alerts |
-| apps | BTCPayServer app integrations and plugins |
-| pull-payments | Pull payment requests and refund management |
+| `webhooks` | Real-time event notifications and webhook management |
+| `notifications` | System notifications and alerts |
+| `apps` | BTCPayServer app integrations and plugins |
+| `pull-payments` | Pull payment requests and refund management |
 
 ### System
 | Service | Description |
 |---------|-------------|
-| server-info | Server status, version, and configuration information |
+| `server-info` | Server status, version, and configuration information |
 
 ## Usage Pattern
 For optimal interaction with the BTCPayServer API through MCP:
@@ -258,5 +258,6 @@ For issues and questions:
 2. Review the API reference
 3. Open an issue in this repository
 
+## Help us improve this MCP
 
-
+**Note:** Some methods might not be working properly. Please help us by reporting requirements and making pull requests to improve them. Also, to keep it up with the latest API version, we need to continue updating it. 
