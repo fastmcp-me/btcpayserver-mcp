@@ -1,9 +1,12 @@
 {
   "name": "btcpayserver-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for BTCPayServer integration with comprehensive payment and store management tools",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "btcpayserver-mcp": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
