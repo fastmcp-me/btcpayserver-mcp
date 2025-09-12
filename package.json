@@ -15,8 +15,15 @@
     "bitcoin",
     "payments"
   ],
-  "author": "",
+  "author": "Abhijay",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abhijay007/btcpayserver-mcp.git"
+  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.6.0",
     "axios": "^1.6.0",
@@ -28,5 +35,3 @@
     "typescript": "^5.0.0"
   }
 }
-
-
