@@ -1,3 +1,10 @@
+[![Add to Cursor](https://fastmcp.me/badges/cursor_dark.svg)](https://fastmcp.me/MCP/Details/1326/btcpayserver)
+[![Add to VS Code](https://fastmcp.me/badges/vscode_dark.svg)](https://fastmcp.me/MCP/Details/1326/btcpayserver)
+[![Add to Claude](https://fastmcp.me/badges/claude_dark.svg)](https://fastmcp.me/MCP/Details/1326/btcpayserver)
+[![Add to ChatGPT](https://fastmcp.me/badges/chatgpt_dark.svg)](https://fastmcp.me/MCP/Details/1326/btcpayserver)
+[![Add to Codex](https://fastmcp.me/badges/codex_dark.svg)](https://fastmcp.me/MCP/Details/1326/btcpayserver)
+[![Add to Gemini](https://fastmcp.me/badges/gemini_dark.svg)](https://fastmcp.me/MCP/Details/1326/btcpayserver)
+
 # BTCPayServer Model Context Protocol Server (Beta)
 
 A comprehensive Model Context Protocol (MCP) server for BTCPayServer integration, providing tools for payment processing, store management, user administration, webhook handling and more with full API coverage.
